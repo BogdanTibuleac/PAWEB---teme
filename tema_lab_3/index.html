@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibuleac Bogdan Personal Page</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #F4F4F4;
+            color: #a35200;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #123961;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .profile-image img {
+            width: 200px; /* Set width */
+            height: 200px; /* Set height */
+            border-radius: 50%; /* Make the image a circle */
+            object-fit: cover; /* Maintain aspect ratio */
+        }
+
+        .hobbies {
+            list-style: none;
+            padding: 0; /* Reset padding */
+            margin: 0; /* Reset margin */
+            display: inline-block; /* Display hobbies on the same line */
+        }
+
+        .hobbies li {
+            margin: 10px;
+            display: inline-block; /* Display items on the same line */
+            vertical-align: top; /* Align items to the top */
+        }
+
+        .hobbies li img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .contact-link {
+            display: block; /* Ensure the mail link is on a separate line */
+            margin-top: 20px;
+        }
+
+        .contact-link img {
+            width: 30px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Page</h1>
+    </header>
+    <main>
+        <div class="profile-image">
+            <img src="./img/catos.jpeg" alt="Profile Picture">
+        </div>
+        <div class="hobbies">
+            <ul>
+                <li><img src="./img/reading.jpeg" alt="Bullet Icon">Reading</li>
+                <li><img src="./img/cooking.jpeg" alt="Bullet Icon">Cooking</li>
+                <li><img src="./img/hiking.jpeg" alt="Bullet Icon">Hiking</li>
+            </ul>
+            <a class="contact-link" href="bogdan.tibuleac@student.usv.ro"><i class="fas fa-envelope"></i></a>
+        </div>
+    </main>
+</body>
+</html>
